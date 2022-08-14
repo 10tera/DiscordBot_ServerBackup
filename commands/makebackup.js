@@ -55,6 +55,28 @@ module.exports = {
             return;
         }
         interaction.deferReply();
-        
+        //start getting backup data from discord server
+        const guild = interaction.guild;
+        const allChannels = guild.channels;
+        const afkChannel = guild.afkChannel;
+        const afkTimeout = guild.afkTimeout;
+        const banner = guild.banner;
+        const bans = guild.bans;
+        const defaultMessageNotifications = guild.defaultMessageNotifications;
+        const description = guild.description;
+        const discoverySplash = guild.discoverySplash;
+        const icon = guild.icon;
+        const maximumBitrate = guild.maximumBitrate;
+        const mfaLevel = guild.mfaLevel;
+        const name = guild.name;
+        const nameAcronym = guild.nameAcronym;
+        const nsfwLevel = guild.nsfwLevel;
+        const roles = guild.roles;
+        const rulesChannel = guild.rulesChannel;
+        const splash = guild.splash;
+        const systemChannel = guild.systemChannel;
+        console.log(afkChannel);
+        console.log(afkTimeout);
+        interaction.reply("test");
     }
 };
