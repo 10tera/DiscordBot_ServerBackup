@@ -77,6 +77,6 @@ module.exports = {
         const systemChannel = guild.systemChannel;
         console.log(afkChannel);
         console.log(afkTimeout);
-        interaction.reply("test");
+        interaction.reply("test1");
     }
 };
