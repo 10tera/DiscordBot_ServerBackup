@@ -1,6 +1,10 @@
 {
-    "token": "NzgwNzI5Njg3Nzc3MDgzNDA0.GOmw15.1Q-vrzxd_FDksS3q_604Lu39ULu0T_wuFh4UBc",
+    "token": "MTAwNzQ1MTcxNzczMTg4OTI0Mg.GLgyYk.ayNP_09Mv25POKfvrGIitpq7K3AJb7ntHhqxq4",
     "guildID": "780616269824655421",
-    "clientID": "780729687777083404",
-    "applicationID": "780729687777083404"
+    "clientID": "1007451717731889242",
+    "applicationID": "1007451717731889242",
+    "adminIDList": [
+        "632551782005866507",
+        "000000000000000000"
+    ]
 }
